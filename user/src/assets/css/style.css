@@ -1,3 +1,43 @@
+.navTitle{
+    font-family: 'Montserrat',sans-serif;
+    color: #ffffff!important;
+    font-weight: 700;
+    font-size: 24px;
+}
+.navTitleScroll{
+    font-family: 'Montserrat',sans-serif;
+    color: #0073e6!important;
+    font-weight: 700;
+    font-size: 24px;
+}
+.navBackground{
+    background-color: rgba(00,00,00,0.1)!important;
+    transition: background-color 400ms linear;
+    -o-transition: background-color 400ms linear;
+    -moz-transition: background-color 400ms linear;
+    -webkit-transition: background-color 400ms linear;
+}
+.navBackgroundScroll{
+    background-color: #ffffff!important;
+    transition: background-color 400ms linear;
+    -o-transition: background-color 400ms linear;
+    -moz-transition: background-color 400ms linear;
+    -webkit-transition: background-color 400ms linear;
+}
+.navItem{
+    text-decoration: none!important;
+    font-family: 'Montserrat',sans-serif;
+    color: #ffffff!important;
+    font-weight: 400;
+    font-size: 16px;
+}
+.navItemScroll{
+    text-decoration: none!important;
+    font-family: 'Montserrat',sans-serif;
+    color: #000000!important;
+    font-weight: 400;
+    font-size: 16px;
+}
 .topFixedBanner{
     background-image: url("../images/banner.jpg");
     min-height: 500px;
@@ -57,15 +97,52 @@
     font-weight: 400;
     font-size: 14px;
 }
-.navTitle{
-    font-family: 'Montserrat',sans-serif;
-    color: #ffffff!important;
-    font-weight: 700;
-    font-size: 24px;
+.summaryBanner{
+    background-image: url("../images/banner.jpg");
+    min-height: 350px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-.navTitleScroll{
+.summaryBannerOverlay{
+    position: absolute;
+    min-height: 350px;
+    width: 100%;
+    background: rgba(0,0,0, 0.7);
+}
+.countNumber{
+    color: #ffffff;
     font-family: 'Montserrat',sans-serif;
-    color: #0073e6!important;
-    font-weight: 700;
-    font-size: 24px;
+    font-size: 48px;
+    font-weight: 600;
+}
+.countTitle{
+    color: #ffffff;
+    font-family: 'Raleway',sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+}
+.countSection{
+    margin-top: 16%;
+}
+.workCard{
+    margin-top: 14%;
+    padding: 10px;
+}
+.cardTitle{
+    color: #000000;
+    font-family: 'Raleway',sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+}
+.cardSubTitle{
+    color: #000000;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+.iconBullet{
+    color: #0073e6;
+    font-size: 16px;
 }
