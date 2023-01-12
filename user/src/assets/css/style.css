@@ -4,12 +4,14 @@
     font-weight: 700;
     font-size: 24px;
 }
+
 .navTitleScroll{
     font-family: 'Montserrat',sans-serif;
     color: #0073e6!important;
     font-weight: 700;
     font-size: 24px;
 }
+
 .navBackground{
     background-color: rgba(00,00,00,0.1)!important;
     transition: background-color 400ms linear;
@@ -17,6 +19,7 @@
     -moz-transition: background-color 400ms linear;
     -webkit-transition: background-color 400ms linear;
 }
+
 .navBackgroundScroll{
     background-color: #ffffff!important;
     transition: background-color 400ms linear;
@@ -24,6 +27,7 @@
     -moz-transition: background-color 400ms linear;
     -webkit-transition: background-color 400ms linear;
 }
+
 .navItem{
     text-decoration: none!important;
     font-family: 'Montserrat',sans-serif;
@@ -31,6 +35,7 @@
     font-weight: 400;
     font-size: 16px;
 }
+
 .navItemScroll{
     text-decoration: none!important;
     font-family: 'Montserrat',sans-serif;
@@ -38,6 +43,7 @@
     font-weight: 400;
     font-size: 16px;
 }
+
 .topFixedBanner{
     background-image: url("../images/banner.jpg");
     min-height: 500px;
@@ -46,36 +52,43 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .topFixedBannerOverlay{
     position: absolute;
     min-height: 500px;
     width: 100%;
     background: rgba(0,0,0, 0.7);
 }
+
 .topContent{
     margin-top: 10rem;
 }
+
 .topTitle{
     font-family: 'Montserrat',sans-serif;
     font-weight: 700;
     color: #ffffff;
     font-size: 48px;
 }
+
 .topSubTitle{
     font-family: 'Raleway',sans-serif;
     font-weight: 600;
     color: #ffffff;
     font-size: 22px;
 }
+
 .serviceCard{
     margin: 5px 5px 5px 5px;
     height: 22rem;
     padding: 60px 30px 60px 30px;
     box-shadow: 0 0 4px 0 rgba(0,115,230,0.2);
 }
+
 .serviceCard:hover{
     box-shadow: 0 0 10px 0 rgba(0,115,230,0.2);
 }
+
 .serviceMainTitle{
     color: #0073e6;
     margin-top: 5rem;
@@ -84,19 +97,23 @@
     font-weight: 600;
     font-size: 28px;
 }
+
 .serviceNameTitle{
     margin-top: 1rem;
     font-family: 'Raleway',sans-serif;
     font-weight: 600;
     font-size: 22px;
 }
+
 .serviceDescription{
     color: #7f7e7e;
     margin-top: 1rem;
     font-family: 'Raleway',sans-serif;
     font-weight: 400;
     font-size: 14px;
+    text-align: justify;
 }
+
 .summaryBanner{
     background-image: url("../images/banner.jpg");
     min-height: 350px;
@@ -105,43 +122,55 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .summaryBannerOverlay{
     position: absolute;
     min-height: 350px;
     width: 100%;
     background: rgba(0,0,0, 0.7);
 }
+
+.summerySection{
+    margin-top: 5rem;
+}
+
 .countNumber{
     color: #ffffff;
     font-family: 'Montserrat',sans-serif;
     font-size: 48px;
     font-weight: 600;
 }
+
 .countTitle{
     color: #ffffff;
     font-family: 'Raleway',sans-serif;
     font-size: 22px;
     font-weight: 600;
 }
+
 .countSection{
     margin-top: 16%;
 }
+
 .workCard{
     margin-top: 14%;
     padding: 10px;
 }
+
 .cardTitle{
     color: #000000;
     font-family: 'Raleway',sans-serif;
     font-weight: 600;
     font-size: 22px;
 }
+
 .cardSubTitle{
     color: #000000;
     font-family: 'Montserrat',sans-serif;
     font-weight: 400;
     font-size: 14px;
 }
+
 .iconBullet{
     color: #0073e6;
     font-size: 16px;

@@ -37,10 +37,26 @@ class Analysis extends Component {
                         </Col>
 
                         <Col lg={6} md={12} sm={12}>
-                            <p className="text-justify serviceDescription">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias doloribus inventore quo repellendus voluptates. Culpa dolore facere facilis illo nulla odit quia voluptatum? Alias dolore doloribus eius inventore vitae voluptates. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias doloribus inventore quo repellendus voluptates. Culpa dolore facere facilis illo nulla odit quia voluptatum? Alias dolore doloribus eius inventore vitae voluptates.
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias doloribus inventore quo repellendus voluptates. Culpa dolore facere facilis illo nulla odit quia voluptatum? Alias dolore doloribus eius inventore vitae voluptates. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias doloribus inventore quo repellendus voluptates. Culpa dolore facere facilis illo nulla odit quia voluptatum? Alias dolore doloribus eius inventore vitae voluptates.
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias doloribus inventore quo repellendus voluptates. Culpa dolore facere facilis illo nulla odit quia voluptatum? Alias dolore doloribus eius inventore vitae voluptates. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias doloribus inventore quo repellendus voluptates. Culpa dolore facere facilis illo nulla odit quia voluptatum? Alias dolore doloribus eius inventore vitae voluptates.
+                            <p className="serviceDescription">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias 
+                                doloribus inventore quo repellendus voluptates. Culpa dolore facere 
+                                illo nulla odit quia voluptatum? Alias dolore doloribus eius inventore 
+                                vitae voluptates. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                Alias doloribus inventore quo repellendus voluptates. Culpa dolore facere
+                                facilis illo nulla odit quia voluptatum? Alias dolore doloribus eius 
+                                inventore vitae voluptates.
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias doloribus 
+                                inventore quo repellendus voluptates. Culpa dolore facere facilis illo 
+                                nulla odit quia voluptatum? Alias dolore doloribus eius inventore vitae 
+                                voluptates. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias 
+                                doloribus inventore quo repellendus voluptates. Culpa dolore facere facilis 
+                                illo nulla odit quia voluptatum? Alias dolore doloribus eius inventore 
+                                vitae voluptates.</p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias doloribus 
+                                inventore quo repellendus voluptates. Culpa dolore facere facilis illo nulla odit 
+                                quia voluptatum? Alias dolore doloribus eius inventore vitae voluptates. Lorem 
+                                ipsum dolor sit amet, consectetur adipisicing elit. Alias doloribus inventore quo 
+                                repellendus voluptates. Culpa dolore facere facilis illo nulla odit quia voluptatum? Alias dolore doloribus eius inventore vitae voluptates.
                             </p>
                         </Col>
                     </Row>

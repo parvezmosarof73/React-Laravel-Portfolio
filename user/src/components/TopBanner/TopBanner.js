@@ -10,8 +10,8 @@ class TopBanner extends Component {
                         <Container className="topContent">
                             <Row>
                                 <Col className="text-center text-uppercase">
-                                    <h1 className="topTitle">Software Engineer</h1>
-                                    <h4 className="topSubTitle">Mobile & Web Application</h4>
+                                    <h1 className="topTitle">Parvez Mosarof</h1>
+                                    <h4 className="topSubTitle">Mobile & Web Application Developer</h4>
                                     <Button variant="primary">More Info</Button>
                                 </Col>
                             </Row>

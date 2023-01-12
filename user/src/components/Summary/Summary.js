@@ -8,7 +8,7 @@ class Summary extends Component {
     render() {
         return (
             <Fragment>
-                <Container fluid={true} className="summaryBanner p-0 mt-5">
+                <Container fluid={true} className="summaryBanner summerySection p-0">
                     <div className="summaryBannerOverlay">
                         <Container className="text-center">
                             <Row>
@@ -24,7 +24,6 @@ class Summary extends Component {
                                                         </div>
                                                     )}
                                                 </CountUp>
-
                                             </h1>
                                             <h4 className="countTitle">Total Projects</h4>
                                             <hr className="bg-white w-25"/>
@@ -43,10 +42,10 @@ class Summary extends Component {
                                         <Card.Body>
                                             <Card.Title className="cardTitle text-justify">How I Work</Card.Title>
                                             <Card.Text>
-                                                <p className="cardSubTitle text-justify"><FontAwesomeIcon className="iconBullet" icon={faCheckCircle} /> Requirement Gathering</p>
-                                                <p className="cardSubTitle text-justify"><FontAwesomeIcon className="iconBullet" icon={faCheckCircle} /> System Analysis</p>
-                                                <p className="cardSubTitle text-justify"><FontAwesomeIcon className="iconBullet" icon={faCheckCircle} /> Coding Testing</p>
-                                                <p className="cardSubTitle text-justify"><FontAwesomeIcon className="iconBullet" icon={faCheckCircle} /> Implementation</p>
+                                                <p className="cardSubTitle"><FontAwesomeIcon className="iconBullet" icon={faCheckCircle} /> Requirement Gathering</p>
+                                                <p className="cardSubTitle"><FontAwesomeIcon className="iconBullet" icon={faCheckCircle} /> System Analysis</p>
+                                                <p className="cardSubTitle"><FontAwesomeIcon className="iconBullet" icon={faCheckCircle} /> Coding Testing</p>
+                                                <p className="cardSubTitle"><FontAwesomeIcon className="iconBullet" icon={faCheckCircle} /> Implementation</p>
                                             </Card.Text>
                                         </Card.Body>
                                     </Card>
