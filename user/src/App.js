@@ -1,21 +1,12 @@
 import React from 'react';
-import TopNavigation from "./components/TopNavigation/TopNavigation";
-import TopBanner from "./components/TopBanner/TopBanner";
-import Services from "./components/Services/Services";
-import Analysis from "./components/Analysis/Analysis";
-import Summary from "./components/Summary/Summary";
+import {BrowserRouter} from "react-router-dom";
+import AppRoute from "./route/AppRoute";
 
 function App() {
     return (
-        <div>
-
-            <TopNavigation/>
-            <TopBanner/>
-            <Services/>
-            <Analysis/>
-            <Summary/>
-
-        </div>
+        <BrowserRouter>
+            <AppRoute/>
+        </BrowserRouter>
     );
 }
 
